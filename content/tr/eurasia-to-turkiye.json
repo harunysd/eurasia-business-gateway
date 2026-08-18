@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "label": "Yön İki",
+    "title": "AVRASYA → TÜRKİYE",
+    "subtitle": "Türkiye'de güvenilir ortaklar, alıcılar ve dağıtım kanalları arayan Avrasyalı şirketler için.",
+    "image": "https://images.unsplash.com/photo-1473042904451-00171c69419d?auto=format&fit=crop&w=1920&q=80"
+  },
+  "intro": {
+    "heading": "Avrasya Ürünlerini Türkiye'ye Getirmek",
+    "paragraph": "Türkiye, bölgenin en büyük ve en dinamik tüketici pazarlarından biridir; genç bir nüfusa, güçlü perakende ağlarına ve büyüyen sanayi talebine sahiptir. Avrasyalı üreticiler için gerçek bir fırsat temsil eder, ancak yerel bilgi olmadan girmek yavaş ve belirsizdir. Avrasya genelinden gelen şirketlere doğru Türk ortaklarını belirleme, yasal ve sertifika gereksinimlerini anlama ve fırsatı gerçek satışlara dönüştüren bir pazar giriş planı oluşturma konusunda yardımcı oluyoruz."
+  },
+  "whyTurkey": {
+    "heading": "Neden Türkiye",
+    "items": [
+      {
+        "icon": "MapPin",
+        "title": "Stratejik Konum",
+        "description": "Avrupa, Asya ve Orta Doğu arasında her büyük pazara hızlı lojistik sağlayan bir köprü.",
+        "id": "stratejik-konum"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Büyüyen Tüketici Pazarı",
+        "description": "Birden fazla sektörde güçlü talebe sahip genç, büyük ve aktif bir tüketici tabanı.",
+        "id": "b-y-yen-t-ketici-pazar"
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Güvenilir Yasal Çerçeve",
+        "description": "Yabancı yatırımcıları ve tüccarları koruyan net ticari hukuk ve istikrarlı düzenlemeler.",
+        "id": "g-venilir-yasal-er-eve"
+      },
+      {
+        "icon": "Users",
+        "title": "Kalifiye İşgücü",
+        "description": "Her büyük sektörde deneyimli endüstriyel ve ticari bir işgücü.",
+        "id": "kalifiye-i-g-c"
+      }
+    ]
+  },
+  "process": {
+    "heading": "Sürecimiz",
+    "steps": [
+      {
+        "title": "İlk Danışma",
+        "description": "Ürününüzü, hedeflerinizi ve kısıtlarınızı anlar, ardından Türk pazarıyla uyumu değerlendiririz.",
+        "id": "i-lk-dan-ma"
+      },
+      {
+        "title": "Yerel Ortak ve Distribütör Arama",
+        "description": "Teklifinize uygun Türk distribütörleri, alıcıları ve ortakları belirler ve doğrularız.",
+        "id": "yerel-ortak-ve-distrib-t-r-arama"
+      },
+      {
+        "title": "Pazar Girişi Planlaması",
+        "description": "Yasal, sertifika ve lojistik gereksinimlerini somut bir giriş planına dönüştürürüz.",
+        "id": "pazar-giri-i-planlamas"
+      },
+      {
+        "title": "Lansman ve Sürekli Destek",
+        "description": "Lansmanı destekler ve yayına alımdan sonra kanalı büyütmek için dahil kalırız.",
+        "id": "lansman-ve-s-rekli-destek"
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Türk pazarına girmeye hazır mısınız?",
+    "paragraph": "Bize ürününüzü anlatın, Türkiye'ye ilk pratik adımları özetleyelim.",
+    "officeCard": {
+      "title": "Türkiye Ofisi",
+      "address": "İstanbul, Türkiye",
+      "email": "info@eurasiabusinessgateway.com",
+      "phone": "+90 212 912 19 27"
+    }
+  }
+}

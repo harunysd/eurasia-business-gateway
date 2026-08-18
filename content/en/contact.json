@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "label": "Get In Touch",
+    "title": "CONTACT US",
+    "subtitle": "Reach out to our team across Türkiye and Eurasia. We provide expert guidance for investors, manufacturers and trade partners.",
+    "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1920&q=80"
+  },
+  "form": {
+    "heading": "Send us a message",
+    "paragraph": "Fill out the form below and our regional specialists will get back to you within 24 hours."
+  },
+  "infoCard": {
+    "address": "İstanbul, Türkiye",
+    "addressLabel": "Türkiye Office",
+    "email": "info@eurasiabusinessgateway.com",
+    "phone": "+90 212 912 19 27",
+    "linkedinLabel": "Follow us on LinkedIn"
+  }
+}

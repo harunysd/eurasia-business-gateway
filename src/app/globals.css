@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-navy font-sans antialiased;
+  font-feature-settings: 'cv11', 'ss01';
+}
+
+/* Headings use the modern Plus Jakarta Sans font, falling back to Inter
+   for Cyrillic glyphs (Russian locale) where Plus Jakarta Sans has no
+   coverage. */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-heading;
+}
+
+/* Faint dotted world-map decorative background used on hero sections. */
+.dotted-globe-pattern {
+  background-image: radial-gradient(rgba(168, 213, 217, 0.18) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* Custom underline used by the active nav item. */
+.nav-underline-active {
+  @apply border-b-2 border-teal;
+}
+
+/* Smooth dropdown reveal for header menus (purely visual; visibility is
+   controlled via group-hover so no JS is required). */
+.dropdown-panel {
+  @apply invisible opacity-0 translate-y-2 transition-all duration-200;
+}
+.group:hover .dropdown-panel,
+.group:focus-within .dropdown-panel {
+  @apply visible opacity-100 translate-y-0;
+}

@@ -1,0 +1,64 @@
+{
+  "hero": {
+    "label": "Desteklediğimiz Sektörler",
+    "title": "HİZMET VERDİĞİMİZ SEKTÖRLER",
+    "subtitle": "Türkiye ve Avrasya arasındaki ticareti yönlendiren sektörlerde derin ve pratik deneyim.",
+    "image": "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1920&q=80"
+  },
+  "sectors": [
+    {
+      "id": "construction",
+      "icon": "HardHat",
+      "title": "İnşaat ve Yapı Malzemeleri",
+      "description": "Büyük altyapı projelerinden finishing malzemelerine kadar Türk tedarikçilerini Avrasya genelinde müteahhitlerle buluşturuyoruz.",
+      "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
+      "longDescription": "Türkiye'nin inşaat ve yapı malzemeleri sektörü, en güçlü ihracat motorlarından biridir. Yapısal çelikten çimentoya, finishing malzemelerinden seramiğe ve yalıtım ürünlerine kadar Türk üreticiler, Avrasya genelinde altyapı ve ticari projelere hizmet verir. Tedarikçileri Rusya, Kazakistan, Özbekistan, Azerbaycan ve Gürcistan'daki müteahhitler, dağıtıcılar ve geliştiricilerle buluşturuyor — ortak doğrulama, sertifika gereksinimleri ve lojistik koordinasyonunu yöneterek malzemelerin zamanında ve spesifikasyona uygun olarak şantiyeye ulaşmasını sağlıyoruz."
+    },
+    {
+      "id": "machinery",
+      "icon": "Cog",
+      "title": "Makine ve Endüstriyel Ekipman",
+      "description": "Türk makine üreticilerinin sanayi alıcılarına ulaşmasına ve Avrasyalı üreticilerin güvenilir ekipman tedarik etmesine yardımcı oluyoruz.",
+      "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=1200&q=80",
+      "longDescription": "Türk makine üreticileri, Avrupa kalitesinde mühendisliği rekabetçi fiyatla birleştiren endüstriyel ekipmanlar üretir — gıda işleme hatlarından paketleme makinelerine, inşaat ekipmanlarından tarım makinelerine kadar. Avrasyalı sanayi alıcılarının doğru ekipmanı tedarik etmesine, teknik ziyaretler düzenlemesine, şartları müzakere etmesine ve kurulum ile satış sonrası desteği koordine etmesine yardımcı oluyoruz. Türk üreticiler için ise alıcıları belirler ve bölge genelinde bayi ağları kurarız."
+    },
+    {
+      "id": "food-agriculture",
+      "icon": "Wheat",
+      "title": "Gıda ve Tarım",
+      "description": "Türk gıda ürünleri ve agritech çözümleri büyüyen Avrasya talebiyle buluşuyor. Her iki tarafta dağıtım ve tedarik kanalları açıyoruz.",
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=1200&q=80",
+      "longDescription": "Türk gıda ürünleri ve tarımsal girdiler, Avrasya genelinde büyüyen taleple buluşuyor. İşlenmiş gıdalardan, içeceklerden ve şekerlemelerden tohumlara, gübrelere ve agritech çözümlerine kadar ticaret her iki yönde akar. Türk gıda markaları için Avrasya perakendeline dağıtım kanalları açıyor ve Avrasyalı tarımsal üreticilerin Türk alıcılar ve işleme ortakları bulmasına yardımcı oluyoruz. Ağımız ithalatçılar, süpermarket zincirleri ve toptan dağıtıcıları kapsar."
+    },
+    {
+      "id": "textile-apparel",
+      "icon": "Shirt",
+      "title": "Tekstil ve Hazır Giyim",
+      "description": "Türkiye'nin tekstil gücü Avrasya genelinde hazır alıcılar buluyor. Üreticileri perakendeciler, markalar ve toptancılarla buluşturuyoruz.",
+      "image": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1200&q=80",
+      "longDescription": "Türkiye, kaliteli kumaşları, hızlı teslimatları ve esnek üretim kapasiteleriyle dünyanın önde gelen tekstil ve hazır giyim üreticilerinden biridir. Avrasyalı perakendeciler, markalar ve toptancılar doğal alıcılardır. Türk tekstil üreticilerini Rusya ve Orta Asya genelindeki perakende zincirleri, private label müşterileri ve kumaş alıcılarıyla buluşturuyor — numune koordinasyonu, fiyat müzakeresi ve üretim planlamasını yöneterek kalıcı tedarik ilişkileri kuruyoruz."
+    },
+    {
+      "id": "energy",
+      "icon": "Zap",
+      "title": "Enerji",
+      "description": "Avrasya enerji değer zinciri genelinde aktif ekipman tedarikçilerine, hizmet sağlayıcılarına ve yatırımcılara destek veriyoruz.",
+      "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
+      "longDescription": "Avrasya enerji sektörü petrol ve gaz, yenilenebilir enerji ve güç altyapısını kapsar — ekipman, mühendislik hizmetleri ve yatırım ortaklıkları için talep yaratır. Türkiye'nin bir enerji transit hub olarak stratejik konumu ek fırsat ekler. Enerji değer zinciri genelinde aktif ekipman tedarikçilerine, EPC müteahhitlerine ve yatırımcılara destek veriyor, yerel içerik gereksinimlerinde gezinmelerine, proje fırsatlarını belirlemelerine ve kilit karar vericilerle ilişkiler kurmalarına yardımcı oluyoruz."
+    },
+    {
+      "id": "consumer-goods",
+      "icon": "ShoppingBag",
+      "title": "Tüketim Malları",
+      "description": "FMCG'den dayanıklı tüketim mallarına kadar Türk markalarının Avrasya perakendesine girmesine ve Avrasyalı üreticilerin Türk raflarına ulaşmasına yardımcı oluyoruz.",
+      "image": "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?auto=format&fit=crop&w=1200&q=80",
+      "longDescription": "FMCG'den dayanıklı tüketim mallarına, kişisel bakımdan elektronikğe kadar Türk tüketim malları markaları Avrasya'nın büyüyen perakende pazarlarına genişliyor. Markaların perakende zincirlerine girmesine, dağıtım ağları kurmasına ve pazara özel uyumluluk ve etiketleme yönetmesine yardımcı oluyoruz. Avrasyalı üreticiler için ise Türkiye'nin büyük tüketici pazarına kapı açıyor — ithalatçılar, perakende ortakları ve e-ticaret kanalları belirliyoruz."
+    }
+  ],
+  "cta": {
+    "heading": "Bu sektörlerden birinde mi çalışıyorsunuz?",
+    "paragraph": "Bize ürününüzü ve hedef pazarınızı söyleyin, gerçekçi sonraki adımları özetleyelim.",
+    "buttonText": "BİZE ULAŞIN",
+    "href": "/contact"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "titleLine1": "TÜRKİYE'Yİ",
+    "titleLine2": "AVRASYA İLE BULUŞTURUYORUZ",
+    "subtitle": "Şirketlerin yeni pazarlara girmesine, güvenilir iş ortakları bulmasına ve Türkiye ile Avrasya arasında sürdürülebilir ticari ilişkiler geliştirmesine yardımcı oluyoruz.",
+    "image": "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1920&q=80",
+    "cta1": {
+      "text": "TÜRKİYE → AVRASYA",
+      "href": "/turkiye-to-eurasia"
+    },
+    "cta2": {
+      "text": "AVRASYA → TÜRKİYE",
+      "href": "/eurasia-to-turkiye"
+    }
+  },
+  "services": {
+    "heading": "Hizmetlerimiz",
+    "subheading": "Avrasya pazarlarına girmek, büyümek ve başarılı olmak için ihtiyacınız olan her şey.",
+    "items": [
+      {
+        "id": "market-entry",
+        "icon": "Globe",
+        "title": "Pazar Girişi",
+        "description": "Yeni pazarlara güvenle girin. Yerel görüşler ve pratik destekle işinizi doğru şekilde başlatıyoruz."
+      },
+      {
+        "id": "local-representation",
+        "icon": "Users",
+        "title": "Yerel Temsil",
+        "description": "Şirketinizi yerel olarak temsil ediyor ve sahada olmadığınızda çıkarlarınızı koruyoruz."
+      },
+      {
+        "id": "distributor-search",
+        "icon": "Handshake",
+        "title": "Distribütör ve Alıcı Arama",
+        "description": "Güvenilir bölgesel ağımız üzerinden ürünleriniz için doğru distribütör, ithalatçı ve alıcıları buluyoruz."
+      },
+      {
+        "id": "b2b-matchmaking",
+        "icon": "UsersRound",
+        "title": "B2B Eşleştirme",
+        "description": "İlgili ortaklarla sizi buluşturuyor ve anlaşmaları ilerleten odaklı B2B görüşmeler düzenliyoruz."
+      },
+      {
+        "id": "market-research",
+        "icon": "BarChart3",
+        "title": "Pazar Araştırması",
+        "description": "Stratejinizi tahminle değil, verilerle desteklemek için sektör, rakip ve fiyat araştırması sunuyoruz."
+      },
+      {
+        "id": "business-development",
+        "icon": "TrendingUp",
+        "title": "İş Geliştirme",
+        "description": "İlk temastan ticari anlaşmalara kadar işinizi büyütmenin her aşamasında yanınızdayız."
+      }
+    ]
+  },
+  "directions": {
+    "left": {
+      "title": "TÜRKİYE → AVRASYA",
+      "paragraph": "Türk üreticilerine ve ihracatçılarına fırsatları belirleme, yerel ortaklıklar kurma ve Avrasya pazarlarında satış kanalları geliştirme konusunda yardımcı oluyoruz.",
+      "buttonText": "FIRSATLARI KEŞFEDİN",
+      "image": "https://images.unsplash.com/photo-1494412651409-8963ce7935a7?auto=format&fit=crop&w=1200&q=80",
+      "href": "/turkiye-to-eurasia"
+    },
+    "right": {
+      "title": "AVRASYA → TÜRKİYE",
+      "paragraph": "Avrasya'dan gelen şirketlere Türkiye'nin büyük ve büyüyen tüketici pazarında güvenilir ortaklar, alıcılar ve dağıtım kanalları bulma konusunda destek veriyoruz.",
+      "buttonText": "TÜRK PAZARINA GİRİN",
+      "image": "https://images.unsplash.com/photo-1473042904451-00171c69419d?auto=format&fit=crop&w=1200&q=80",
+      "href": "/eurasia-to-turkiye"
+    }
+  }
+}

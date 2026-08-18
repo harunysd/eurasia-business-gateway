@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "label": "Direction Two",
+    "title": "EURASIA → TÜRKİYE",
+    "subtitle": "For Eurasian companies seeking reliable partners, buyers and distribution channels in Türkiye.",
+    "image": "https://images.unsplash.com/photo-1473042904451-00171c69419d?auto=format&fit=crop&w=1920&q=80"
+  },
+  "intro": {
+    "heading": "Bringing Eurasian Products into Türkiye",
+    "paragraph": "Türkiye is one of the largest and most dynamic consumer markets in the region, with a young population, strong retail networks and growing industrial demand. For Eurasian producers it represents a real opportunity, but entering it without local knowledge is slow and uncertain. We help companies from across Eurasia identify the right Turkish partners, understand regulatory and certification requirements, and build a market entry plan that turns opportunity into actual sales."
+  },
+  "whyTurkey": {
+    "heading": "Why Türkiye",
+    "items": [
+      {
+        "icon": "MapPin",
+        "title": "Strategic Location",
+        "description": "A bridge between Europe, Asia and the Middle East with fast logistics to every major market.",
+        "id": "strategic-location"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Growing Consumer Market",
+        "description": "A young, large and active consumer base with strong demand across multiple sectors.",
+        "id": "growing-consumer-market"
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Reliable Legal Framework",
+        "description": "Clear commercial law and stable regulations that protect foreign investors and traders.",
+        "id": "reliable-legal-framework"
+      },
+      {
+        "icon": "Users",
+        "title": "Skilled Workforce",
+        "description": "An experienced industrial and commercial workforce across every major sector.",
+        "id": "skilled-workforce"
+      }
+    ]
+  },
+  "process": {
+    "heading": "Our Process",
+    "steps": [
+      {
+        "title": "Initial Consultation",
+        "description": "We understand your product, goals and constraints, then assess fit with the Turkish market.",
+        "id": "initial-consultation"
+      },
+      {
+        "title": "Local Partner & Distributor Search",
+        "description": "We identify and vet Turkish distributors, buyers and partners suited to your offering.",
+        "id": "local-partner-and-distributor-search"
+      },
+      {
+        "title": "Market Entry Planning",
+        "description": "We map regulatory, certification and logistics requirements into a concrete entry plan.",
+        "id": "market-entry-planning"
+      },
+      {
+        "title": "Launch & Ongoing Support",
+        "description": "We support the launch and stay engaged to grow the channel after go-live.",
+        "id": "launch-and-ongoing-support"
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Ready to enter the Turkish market?",
+    "paragraph": "Tell us about your product and we will outline the first practical steps into Türkiye.",
+    "officeCard": {
+      "title": "Türkiye Office",
+      "address": "İstanbul, Türkiye",
+      "email": "info@eurasiabusinessgateway.com",
+      "phone": "+90 212 912 19 27"
+    }
+  }
+}

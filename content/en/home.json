@@ -1,0 +1,74 @@
+{
+  "hero": {
+    "titleLine1": "CONNECTING",
+    "titleLine2": "TÜRKİYE WITH EURASIA",
+    "subtitle": "We help companies enter new markets, find reliable business partners and develop sustainable commercial relationships between Türkiye and Eurasia.",
+    "image": "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1920&q=80",
+    "cta1": {
+      "text": "TÜRKİYE → EURASIA",
+      "href": "/turkiye-to-eurasia"
+    },
+    "cta2": {
+      "text": "EURASIA → TÜRKİYE",
+      "href": "/eurasia-to-turkiye"
+    }
+  },
+  "services": {
+    "heading": "Our Services",
+    "subheading": "Everything you need to enter, grow and succeed across Eurasian markets.",
+    "items": [
+      {
+        "id": "market-entry",
+        "icon": "Globe",
+        "title": "Market Entry",
+        "description": "Enter new markets with confidence. We provide local insights and practical support to launch your business the right way."
+      },
+      {
+        "id": "local-representation",
+        "icon": "Users",
+        "title": "Local Representation",
+        "description": "We represent your company locally and act in your best interest when you cannot be on the ground yourself."
+      },
+      {
+        "id": "distributor-search",
+        "icon": "Handshake",
+        "title": "Distributor & Buyer Search",
+        "description": "We find the right distributors, importers and buyers for your products through our trusted regional network."
+      },
+      {
+        "id": "b2b-matchmaking",
+        "icon": "UsersRound",
+        "title": "B2B Matchmaking",
+        "description": "We connect you with relevant partners and organize focused B2B meetings that move deals forward."
+      },
+      {
+        "id": "market-research",
+        "icon": "BarChart3",
+        "title": "Market Research",
+        "description": "We provide sector, competitor and pricing research to support your strategy with hard data, not guesses."
+      },
+      {
+        "id": "business-development",
+        "icon": "TrendingUp",
+        "title": "Business Development",
+        "description": "From the first contact to commercial agreements, we are with you at every stage of growing your business."
+      }
+    ]
+  },
+  "directions": {
+    "left": {
+      "title": "TÜRKİYE → EURASIA",
+      "paragraph": "We help Turkish manufacturers and exporters identify opportunities, establish local partnerships and develop sales channels across Eurasian markets.",
+      "buttonText": "EXPLORE OPPORTUNITIES",
+      "image": "https://images.unsplash.com/photo-1494412651409-8963ce7935a7?auto=format&fit=crop&w=1200&q=80",
+      "href": "/turkiye-to-eurasia"
+    },
+    "right": {
+      "title": "EURASIA → TÜRKİYE",
+      "paragraph": "We support companies from Eurasia seeking reliable partners, buyers and distribution channels in Türkiye's large and growing consumer market.",
+      "buttonText": "ENTER THE TURKISH MARKET",
+      "image": "https://images.unsplash.com/photo-1473042904451-00171c69419d?auto=format&fit=crop&w=1200&q=80",
+      "href": "/eurasia-to-turkiye"
+    }
+  }
+}

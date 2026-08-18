@@ -1,0 +1,63 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model ContactSubmission {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  company   String?
+  phone     String?
+  message   String
+  read      Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+}
+
+// Simple key/value store for admin-configurable settings (e.g. the SMTP
+// email transport used for admin replies and tests).
+model Setting {
+  key   String @id
+  value String @default("")
+}
+
+// Sectors managed from Admin > Sectors. Localized copy is stored as a JSON
+// string in `content` shaped like:
+//   { "en": {title, description, longDescription}, "tr": {...}, "ru": {...} }
+// The public Sectors pages read this table and fall back to the static JSON
+// content when the table is empty.
+model Sector {
+  id        String   @id @default(cuid())
+  slug      String   @unique
+  icon      String   @default("BarChart3")
+  image     String   @default("")
+  order     Int      @default(0)
+  content   String   @default("{}")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([order])
+}
+
+// Global site settings, stored as a single DB row (id = 1). The admin
+// "Genel Ayarlar" page edits these; the public pages, footer and header
+// hydrate from this table via lib/settings.ts.
+model SiteSettings {
+  id              Int      @id @default(1)
+  companyName     String   @default("Eurasia Business Gateway")
+  tagline         String   @default("Trade · Investment · Market Entry")
+  logo            String   @default("")
+  officeAddress   String   @default("İstanbul, Türkiye")
+  officeEmail     String   @default("info@eurasiabusinessgateway.com")
+  phone           String   @default("+90 212 912 19 27")
+  linkedinUrl     String   @default("https://www.linkedin.com")
+  mapEmbedUrl     String   @default("")
+  footerCopyright String   @default("© 2026 Eurasia Business Gateway. All rights reserved.")
+  updatedAt       DateTime @updatedAt
+}

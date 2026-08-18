@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "ГЛАВНАЯ",
+    "about": "О НАС",
+    "services": "УСЛУГИ",
+    "turkiyeToEurasia": "ТУРЦИЯ → ЕВРАЗИЯ",
+    "eurasiaToTurkiye": "ЕВРАЗИЯ → ТУРЦИЯ",
+    "sectors": "СЕКТОРА",
+    "contact": "КОНТАКТЫ",
+    "servicesDropdown": {
+      "marketEntry": "Выход на рынок",
+      "localRepresentation": "Местное представительство",
+      "distributorSearch": "Поиск дистрибьюторов и покупателей",
+      "b2bMatchmaking": "B2B-мэтчмейкинг",
+      "marketResearch": "Исследование рынка",
+      "businessDevelopment": "Развитие бизнеса"
+    },
+    "sectorsDropdown": {
+      "construction": "Строительство и строительные материалы",
+      "machinery": "Машины и промышленное оборудование",
+      "foodAgriculture": "Пищевые продукты и сельское хозяйство",
+      "textileApparel": "Текстиль и одежда",
+      "energy": "Энергетика",
+      "consumerGoods": "Потребительские товары"
+    }
+  },
+  "languageSwitcher": {
+    "label": "Язык",
+    "en": "EN",
+    "tr": "TR",
+    "ru": "RU"
+  },
+  "footer": {
+    "features": {
+      "bridgingTitle": "МОСТЫ МЕЖДУ РЫНКАМИ",
+      "bridgingText": "Турция и Евразия",
+      "partnershipsTitle": "НАДЁЖНЫЕ ПАРТНЁРСТВА",
+      "partnershipsText": "Построены на доверии и результатах",
+      "focusedTitle": "ФОКУСНЫЙ ПОДХОД",
+      "focusedText": "Местные знания, практические решения",
+      "growingTitle": "РАСТУЩАЯ СЕТЬ",
+      "growingText": "Расширяемся по всей Евразии"
+    },
+    "columns": {
+      "company": "Компания",
+      "directions": "Регионы деятельности",
+      "legal": "Правовая информация",
+      "privacy": "Политика конфиденциальности",
+      "terms": "Условия использования"
+    },
+    "contact": {
+      "officeLabel": "Офис в Турции",
+      "linkedinLabel": "Подписаться на нас в LinkedIn",
+      "copyright": "© 2026 Eurasia Business Gateway. Все права защищены."
+    }
+  },
+  "common": {
+    "howItWorks": "Как это работает",
+    "learnMore": "Подробнее",
+    "backToHome": "Вернуться на главную",
+    "notFoundTitle": "Страница не найдена",
+    "notFoundText": "Страница, которую вы ищете, не существует или была перемещена."
+  },
+  "contact": {
+    "form": {
+      "nameLabel": "Имя",
+      "namePlaceholder": "Ваше полное имя",
+      "emailLabel": "Эл. почта",
+      "emailPlaceholder": "вы@компания.com",
+      "companyLabel": "Компания",
+      "companyPlaceholder": "Название компании",
+      "phoneLabel": "Телефон",
+      "phonePlaceholder": "+90 ...",
+      "messageLabel": "Сообщение",
+      "messagePlaceholder": "Чем мы можем помочь?",
+      "submit": "Отправить сообщение",
+      "submitting": "Отправка...",
+      "nameError": "Пожалуйста, введите ваше имя.",
+      "emailError": "Пожалуйста, введите корректный адрес эл. почты.",
+      "messageError": "Пожалуйста, введите сообщение.",
+      "successTitle": "Спасибо!",
+      "successText": "Ваше сообщение получено. Мы свяжемся с вами в течение 24 часов.",
+      "errorTitle": "Что-то пошло не так",
+      "errorText": "Пожалуйста, попробуйте снова или напишите нам напрямую."
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "label": "What We Do",
+    "title": "OUR SERVICES",
+    "subtitle": "A complete commercial toolkit for entering, growing and sustaining your business across Türkiye and Eurasia.",
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1920&q=80"
+  },
+  "services": [
+    {
+      "id": "market-entry",
+      "icon": "Globe",
+      "title": "Market Entry",
+      "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80",
+      "paragraph": "Entering a new market without local knowledge is expensive and risky. We assess demand, map the competitive landscape, clarify regulatory requirements and build a practical entry plan tailored to your product and budget. From the first feasibility check to a registered presence, we keep your launch focused on what actually generates revenue.",
+      "steps": [
+        "Initial feasibility assessment and market sizing",
+        "Regulatory and licensing requirements review",
+        "Entry strategy and channel selection",
+        "On-the-ground launch execution and follow-up"
+      ]
+    },
+    {
+      "id": "local-representation",
+      "icon": "Users",
+      "title": "Local Representation",
+      "image": "https://images.unsplash.com/photo-1531973576160-7125cd663d86?auto=format&fit=crop&w=1200&q=80",
+      "paragraph": "When you cannot maintain a full-time presence in every market, we act as your local representative. We meet partners on your behalf, attend meetings and trade fairs, follow up on leads and protect your interests in day-to-day commercial discussions. You stay in control of strategy while we handle the local execution that requires being physically present.",
+      "steps": [
+        "Define representation scope and authority",
+        "Identify key contacts and recurring touchpoints",
+        "Act on your behalf at meetings and events",
+        "Report back with clear outcomes and next steps"
+      ]
+    },
+    {
+      "id": "distributor-search",
+      "icon": "Handshake",
+      "title": "Distributor & Buyer Search",
+      "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=80",
+      "paragraph": "Finding the right distributor or buyer is the difference between a market that performs and one that stalls. We tap into our regional network to shortlist candidates, vet their financial and operational standing, and arrange direct introductions. You receive qualified options, not a generic list, so your sales effort starts from a position of trust.",
+      "steps": [
+        "Profile your ideal distributor or buyer",
+        "Shortlist and vet candidates from our network",
+        "Arrange and support initial introductions",
+        "Help structure the commercial relationship"
+      ]
+    },
+    {
+      "id": "b2b-matchmaking",
+      "icon": "UsersRound",
+      "title": "B2B Matchmaking",
+      "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1200&q=80",
+      "paragraph": "Good matchmaking is not about quantity, it is about fit. We curate targeted B2B meetings between your team and pre-screened partners, buyers and suppliers across the region. Every meeting has a clear objective, supporting context and a follow-up plan, so the time you invest turns into real commercial momentum.",
+      "steps": [
+        "Clarify objectives and ideal partner profile",
+        "Curate and confirm relevant meeting counterparts",
+        "Host and facilitate focused B2B sessions",
+        "Track follow-ups until outcomes are secured"
+      ]
+    },
+    {
+      "id": "market-research",
+      "icon": "BarChart3",
+      "title": "Market Research",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "paragraph": "Strategy without data is guesswork. We deliver sector, competitor and pricing research grounded in primary sources and local fieldwork. Whether you are validating a new market or defending an existing position, our reports give you the facts and context needed to make confident commercial decisions.",
+      "steps": [
+        "Define research questions and scope",
+        "Combine primary fieldwork with secondary data",
+        "Analyse competitors, pricing and demand",
+        "Deliver an actionable findings report"
+      ]
+    },
+    {
+      "id": "business-development",
+      "icon": "TrendingUp",
+      "title": "Business Development",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
+      "paragraph": "From the first contact to a signed commercial agreement, we stay alongside your team. We qualify leads, negotiate terms, resolve the small obstacles that slow deals down and help turn one-off transactions into long-term relationships. Our goal is sustained revenue growth, not a single handshake.",
+      "steps": [
+        "Qualify inbound and outbound leads",
+        "Support negotiation and term sheets",
+        "Remove blockers slowing the deal down",
+        "Nurture the relationship after signing"
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Let's talk about your market entry",
+    "paragraph": "Tell us which service fits your current priority and we will shape a practical plan around it.",
+    "buttonText": "CONTACT US",
+    "href": "/contact"
+  }
+}

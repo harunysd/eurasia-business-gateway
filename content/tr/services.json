@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "label": "Ne Yapıyoruz",
+    "title": "HİZMETLERİMİZ",
+    "subtitle": "Türkiye ve Avrasya genelinde işinizi başlatmak, büyütmek ve sürdürmek için eksiksiz bir ticari araç seti.",
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1920&q=80"
+  },
+  "services": [
+    {
+      "id": "market-entry",
+      "icon": "Globe",
+      "title": "Pazar Girişi",
+      "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80",
+      "paragraph": "Yerel bilgi olmadan yeni bir pazara girmek pahalı ve risklidir. Talebi değerlendirir, rekabet ortamını haritalandırırız, yasal gereksinimleri netleştirir ve ürününüze ile bütçenize göre uyarlanmış pratik bir giriş planı oluştururuz. İlk fizibilite kontrolünden kayıtlı bir varlığa kadar lansmanınızı gerçekten gelir getiren şeye odaklı tutarız.",
+      "steps": [
+        "İlk fizibilite değerlendirmesi ve pazar ölçekleme",
+        "Yasal ve lisans gereksinimlerinin incelenmesi",
+        "Giriş stratejisi ve kanal seçimi",
+        "Sahada lansman uygulaması ve takip"
+      ]
+    },
+    {
+      "id": "local-representation",
+      "icon": "Users",
+      "title": "Yerel Temsil",
+      "image": "https://images.unsplash.com/photo-1531973576160-7125cd663d86?auto=format&fit=crop&w=1200&q=80",
+      "paragraph": "Her pazarda tam zamanlı bir varlık sürdüremediğinizde sizin yerel temsilciniz olarak hareket ederiz. Adınıza ortaklarla görüşürüz, toplantılara ve fuarlara katılırız, talepleri takip ederiz ve günlük ticari görüşmelerde çıkarlarınızı koruruz. Stratejinin kontrolü sizde kalırken, fiziksel olarak sahada olmayı gerektiren yerel uygulamayı biz üstleniriz.",
+      "steps": [
+        "Temsil kapsamı ve yetki tanımı",
+        "Önemli kişiler ve yinelenen temas noktalarının belirlenmesi",
+        "Adınıza toplantı ve etkinliklerde temsil",
+        "Net sonuçlar ve sonraki adımlarla raporlama"
+      ]
+    },
+    {
+      "id": "distributor-search",
+      "icon": "Handshake",
+      "title": "Distribütör ve Alıcı Arama",
+      "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=80",
+      "paragraph": "Doğru distribütör veya alıcıyı bulmak, performans gösteren bir pazar ile tıkanan bir pazar arasındaki farktır. Adayları kısa listeye almak, mali ve operasyonel durumlarını doğrulamak ve doğrudan tanıştırmalar ayarlamak için bölgesel ağımızdan yararlanırız. Genel bir liste değil, nitelikli seçenekler alırsınız; böylece satış çabanız güvenin olduğu bir noktadan başlar.",
+      "steps": [
+        "İdeal distribütör veya alıcı profilinin çıkarılması",
+        "Ağımızdan adayların kısa listeye alınması ve doğrulanması",
+        "İlk tanıştırmaların ayarlanması ve desteklenmesi",
+        "Ticari ilişkinin yapısının oluşturulmasına yardım"
+      ]
+    },
+    {
+      "id": "b2b-matchmaking",
+      "icon": "UsersRound",
+      "title": "B2B Eşleştirme",
+      "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1200&q=80",
+      "paragraph": "İyi eşleştirme nicelikle değil, uyumla ilgilidir. Bölge genelinde ekibiniz ile önceden incelenmiş ortaklar, alıcılar ve tedarikçiler arasında hedefli B2B görüşmeler düzenleriz. Her görüşmenin net bir hedefi, destekleyici bağlamı ve bir takip planı vardır; böylece yatırığınız zaman gerçek ticari momentum dönüşür.",
+      "steps": [
+        "Hedefler ve ideal ortak profilinin netleştirilmesi",
+        "İlgili görüşme karşı taraflarının seçilmesi ve onaylanması",
+        "Odaklı B2B oturumlarının sunulması ve kolaylaştırılması",
+        "Sonuçlar sağanana kadar takibin izlenmesi"
+      ]
+    },
+    {
+      "id": "market-research",
+      "icon": "BarChart3",
+      "title": "Pazar Araştırması",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "paragraph": "Verisiz strateji tahmin yürütmektir. Birincil kaynaklara ve yerel saha çalışmalarına dayanan sektör, rakip ve fiyat araştırması sunarız. İster yeni bir pazarı doğruluyor ister mevcut bir konumu savunuyor olun, raporlarımız güvenle ticari kararlar almanız için gereken gerçekleri ve bağlamı verir.",
+      "steps": [
+        "Araştırma soruları ve kapsamın tanımlanması",
+        "Birincil saha çalışması ile ikincil verinin birleştirilmesi",
+        "Rakipler, fiyatlandırma ve talebin analizi",
+        "Uygulanabilir bir bulgular raporunun sunulması"
+      ]
+    },
+    {
+      "id": "business-development",
+      "icon": "TrendingUp",
+      "title": "İş Geliştirme",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
+      "paragraph": "İlk temastan imzalı ticari anlaşmaya kadar ekibinizin yanında kalırız. Talepleri niteliklendiririz, şartları müzakere ederiz, anlaşmaları yavaşlatan küçük engelleri çözeriz ve tek seferlik işlemleri uzun vadeli ilişkilere dönüştürürüz. Hedefimiz tek bir el sıkışma değil, sürdürülebilir gelir büyümesidir.",
+      "steps": [
+        "Gelen ve giden taleplerin niteliklendirilmesi",
+        "Müzakere ve niyet mektuplarının desteklenmesi",
+        "Anlaşmayı yavaşlatan engellerin kaldırılması",
+        "İmzadan sonra ilişkinin beslenmesi"
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Pazar girişiniz hakkında konuşalım",
+    "paragraph": "Mevcut önceliğinize hangi hizmetin uyduğunu söyleyin, etrafında pratik bir plan oluşturalım.",
+    "buttonText": "BİZE ULAŞIN",
+    "href": "/contact"
+  }
+}

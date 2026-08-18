@@ -1,0 +1,93 @@
+{
+  "hero": {
+    "label": "Yön Bir",
+    "title": "TÜRKİYE → AVRASYA",
+    "subtitle": "Avrasya pazarları genelinde satışlarını büyütmeye hazır Türk üreticileri ve ihracatçıları için.",
+    "image": "https://images.unsplash.com/photo-1494412651409-8963ce7935a7?auto=format&fit=crop&w=1920&q=80"
+  },
+  "intro": {
+    "heading": "Türk Ürünlerini Avrasya Pazarlarına Götürmek",
+    "paragraph": "Türk sanayisi, Avrasya pazarlarının gerçekten ihtiyaç duyduğu malları üretir: inşaat malzemeleri, makine, gıda, tekstil, tüketim malları ve daha fazlası. Ancak o potansiyeli güvenilir gelire dönüştürmek doğru yerel ortakları, gerçekçi pazar bilgisini ve ilerletici sahada birini gerektirir. Tam olarak bunu sağlıyoruz. Türk şirketlerine en iyi giriş pazarlarını belirleme, doğrulanmış distribütör ve alıcıları bulma ve ilk konteynerin ötesinde süren satış kanalları oluşturma konusunda yardımcı oluyoruz."
+  },
+  "markets": {
+    "heading": "Kapsadığımız Pazarlar",
+    "subheading": "Doğu Avrupa'dan Orta Asya'ya Avrasya koridoru genelinde aktif kapsam.",
+    "items": [
+      {
+        "icon": "Globe",
+        "name": "Rusya",
+        "id": "rusya"
+      },
+      {
+        "icon": "Globe",
+        "name": "Kazakistan",
+        "id": "kazakistan"
+      },
+      {
+        "icon": "Globe",
+        "name": "Özbekistan",
+        "id": "zbekistan"
+      },
+      {
+        "icon": "Globe",
+        "name": "Azerbaycan",
+        "id": "azerbaycan"
+      },
+      {
+        "icon": "Globe",
+        "name": "Gürcistan",
+        "id": "g-rcistan"
+      },
+      {
+        "icon": "Globe",
+        "name": "Orta Asya",
+        "id": "orta-asya"
+      },
+      {
+        "icon": "Globe",
+        "name": "Kafkasya",
+        "id": "kafkasya"
+      },
+      {
+        "icon": "Globe",
+        "name": "Moğolistan",
+        "id": "mo-olistan"
+      }
+    ]
+  },
+  "process": {
+    "heading": "Sürecimiz",
+    "steps": [
+      {
+        "title": "Keşif ve Hedef Belirleme",
+        "description": "Ürününüzü, kapasitenizi ve ticari hedeflerinizi öğrenir, ardından önce hangi pazarları takip etmeye değer olduğunu birlikte kararlaştırırız.",
+        "id": "ke-if-ve-hedef-belirleme"
+      },
+      {
+        "title": "Pazar ve Ortak Araştırması",
+        "description": "Her hedef pazarı ölçüler ve profilinize uyan doğrulanmış distribütör, alıcı ve ortakları kısa listeye alırız.",
+        "id": "pazar-ve-ortak-ara-t-rmas"
+      },
+      {
+        "title": "Tanıştırmalar ve Müzakere",
+        "description": "Doğrudan tanıştırmalar ayarlar, müzakereleri destekler ve çıkarlarınızı koruyan şartların yapısına yardım ederiz.",
+        "id": "tan-t-rmalar-ve-m-zakere"
+      },
+      {
+        "title": "Anlaşma Kapanışı ve Sürekli Destek",
+        "description": "İmzadan sonra takipleri yönetmek, sorunları çözmek ve ilişkiyi büyütmek için dahil kalırız.",
+        "id": "anla-ma-kapan-ve-s-rekli-destek"
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Avrasya'ya girmeye hazır mısınız?",
+    "paragraph": "Ürününüzü ve hedef pazarlarınızı paylaşın, gerçekçi bir giriş planı çıkaralım.",
+    "officeCard": {
+      "title": "Türkiye Ofisi",
+      "address": "İstanbul, Türkiye",
+      "email": "info@eurasiabusinessgateway.com",
+      "phone": "+90 212 912 19 27"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "label": "About Our Organization",
+    "title": "FORGING CONNECTIONS ACROSS EURASIA",
+    "subtitle": "Eurasia Business Gateway stands at the crucial intersection of trade between Türkiye and the broader Eurasian markets, providing the intelligence and infrastructure needed for successful global expansion.",
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1920&q=80"
+  },
+  "whoWeAre": {
+    "heading": "Who We Are",
+    "paragraphs": [
+      "Eurasia Business Gateway is an independent advisory and business development firm specialized in cross-border trade between Türkiye and the Eurasian region. Our team brings together years of hands-on commercial experience across Russia, Kazakhstan, Uzbekistan, Azerbaijan, Georgia and the wider Central Asian and Caucasus markets.",
+      "We exist because entering a new market is never just about language or logistics. It is about knowing the right people, understanding unwritten rules, and moving quickly when an opportunity appears. Our role is to be that local presence and trusted partner for our clients on both sides of the corridor."
+    ],
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80"
+  },
+  "missionVision": {
+    "mission": {
+      "heading": "Our Mission",
+      "paragraph": "To facilitate robust trade, high-yield investment and effective market entry through unparalleled local expertise, rigorous analysis and a deeply entrenched network of regional stakeholders across Türkiye and Eurasia."
+    },
+    "vision": {
+      "heading": "Our Vision",
+      "paragraph": "To be the primary bridge between Türkiye and Eurasia, cultivating a seamless environment for cross-border commerce, strategic investment and enduring international partnerships."
+    }
+  },
+  "whyChooseUs": {
+    "heading": "Why Choose Us",
+    "items": [
+      {
+        "icon": "Award",
+        "title": "Local Expertise",
+        "description": "Years of on-the-ground experience across every market we cover.",
+        "id": "local-expertise"
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Trusted Network",
+        "description": "A vetted network of partners, distributors and decision-makers.",
+        "id": "trusted-network"
+      },
+      {
+        "icon": "Zap",
+        "title": "Fast Execution",
+        "description": "We move quickly from first contact to signed agreement.",
+        "id": "fast-execution"
+      },
+      {
+        "icon": "HeartHandshake",
+        "title": "Client-First Approach",
+        "description": "Your goals drive every recommendation and every action we take.",
+        "id": "client-first-approach"
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Ready to start a conversation?",
+    "paragraph": "Tell us where you want to grow and we will map out the first practical steps together.",
+    "buttonText": "CONTACT US",
+    "href": "/contact"
+  }
+}

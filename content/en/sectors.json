@@ -1,0 +1,64 @@
+{
+  "hero": {
+    "label": "Industries We Support",
+    "title": "SECTORS WE SERVE",
+    "subtitle": "Deep, practical experience in the sectors that drive trade between Türkiye and Eurasia.",
+    "image": "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=1920&q=80"
+  },
+  "sectors": [
+    {
+      "id": "construction",
+      "icon": "HardHat",
+      "title": "Construction & Building Materials",
+      "description": "From large infrastructure projects to finishing materials, we connect Turkish suppliers with developers and contractors across Eurasia.",
+      "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=80",
+      "longDescription": "Türkiye's construction and building materials sector is one of its strongest export engines. From structural steel and cement to finishing materials, ceramics, and insulation products, Turkish manufacturers serve infrastructure and commercial projects across Eurasia. We connect suppliers with developers, contractors, and distributors in Russia, Kazakhstan, Uzbekistan, Azerbaijan, and Georgia — handling partner vetting, certification requirements, and logistics coordination so materials reach site on schedule and on spec."
+    },
+    {
+      "id": "machinery",
+      "icon": "Cog",
+      "title": "Machinery & Industrial Equipment",
+      "description": "We help Turkish machinery makers reach industrial buyers and support Eurasian manufacturers sourcing reliable equipment.",
+      "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=1200&q=80",
+      "longDescription": "Turkish machinery manufacturers produce industrial equipment that balances European-quality engineering with competitive pricing — from food processing lines and packaging machinery to construction equipment and agricultural machinery. We help Eurasian industrial buyers source the right equipment, arrange technical visits, negotiate terms, and coordinate installation and after-sales support. For Turkish manufacturers, we identify buyers and build dealer networks across the region."
+    },
+    {
+      "id": "food-agriculture",
+      "icon": "Wheat",
+      "title": "Food & Agriculture",
+      "description": "Turkish food products and agritech solutions meet growing Eurasian demand. We open distribution and sourcing channels on both sides.",
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=1200&q=80",
+      "longDescription": "Turkish food products and agricultural inputs are in growing demand across Eurasia. From processed foods, beverages, and confectionery to seeds, fertilizers, and agritech solutions, the trade flows in both directions. We open distribution channels for Turkish food brands entering Eurasian retail, and help Eurasian agricultural producers find Turkish buyers and processing partners. Our network covers importers, supermarket chains, and wholesale distributors."
+    },
+    {
+      "id": "textile-apparel",
+      "icon": "Shirt",
+      "title": "Textile & Apparel",
+      "description": "Türkiye's textile strength finds ready buyers across Eurasia. We connect manufacturers with retailers, brands and wholesalers.",
+      "image": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1200&q=80",
+      "longDescription": "Türkiye is one of the world's leading textile and apparel producers, known for quality fabrics, fast turnaround, and flexible production runs. Eurasian retailers, brands, and wholesalers are natural buyers. We connect Turkish textile manufacturers with retail chains, private label clients, and fabric buyers across Russia and Central Asia — managing sample coordination, price negotiation, and production scheduling to build lasting supply relationships."
+    },
+    {
+      "id": "energy",
+      "icon": "Zap",
+      "title": "Energy",
+      "description": "We support equipment suppliers, service providers and investors active across the Eurasian energy value chain.",
+      "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1200&q=80",
+      "longDescription": "The Eurasian energy sector spans oil and gas, renewables, and power infrastructure — creating demand for equipment, engineering services, and investment partnerships. Türkiye's strategic position as an energy transit hub adds further opportunity. We support equipment suppliers, EPC contractors, and investors active across the energy value chain, helping them navigate local content requirements, identify project opportunities, and build relationships with key decision-makers."
+    },
+    {
+      "id": "consumer-goods",
+      "icon": "ShoppingBag",
+      "title": "Consumer Goods",
+      "description": "From FMCG to household durables, we help Turkish brands enter Eurasian retail and Eurasian producers reach Turkish shelves.",
+      "image": "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?auto=format&fit=crop&w=1200&q=80",
+      "longDescription": "From FMCG and household durables to personal care and electronics, Turkish consumer goods brands are expanding across Eurasia's growing retail markets. We help brands enter retail chains, set up distribution networks, and manage market-specific compliance and labelling. For Eurasian producers, we open doors to Türkiye's large consumer market — identifying importers, retail partners, and e-commerce channels."
+    }
+  ],
+  "cta": {
+    "heading": "Operating in one of these sectors?",
+    "paragraph": "Tell us your product and target market and we will outline the realistic next steps.",
+    "buttonText": "CONTACT US",
+    "href": "/contact"
+  }
+}

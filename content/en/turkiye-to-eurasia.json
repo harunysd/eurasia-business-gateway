@@ -1,0 +1,93 @@
+{
+  "hero": {
+    "label": "Direction One",
+    "title": "TÜRKİYE → EURASIA",
+    "subtitle": "For Turkish manufacturers and exporters ready to grow sales across Eurasian markets.",
+    "image": "https://images.unsplash.com/photo-1494412651409-8963ce7935a7?auto=format&fit=crop&w=1920&q=80"
+  },
+  "intro": {
+    "heading": "Taking Turkish Products to Eurasian Markets",
+    "paragraph": "Turkish industry produces goods that Eurasian markets genuinely need: construction materials, machinery, food, textiles, consumer goods and more. But turning that potential into reliable revenue requires the right local partners, realistic market knowledge and someone on the ground who can move things forward. That is exactly what we provide. We help Turkish companies identify the best entry markets, find vetted distributors and buyers, and build sales channels that last beyond the first container."
+  },
+  "markets": {
+    "heading": "Markets We Cover",
+    "subheading": "Active coverage across the Eurasian corridor, from Eastern Europe to Central Asia.",
+    "items": [
+      {
+        "icon": "Globe",
+        "name": "Russia",
+        "id": "russia"
+      },
+      {
+        "icon": "Globe",
+        "name": "Kazakhstan",
+        "id": "kazakhstan"
+      },
+      {
+        "icon": "Globe",
+        "name": "Uzbekistan",
+        "id": "uzbekistan"
+      },
+      {
+        "icon": "Globe",
+        "name": "Azerbaijan",
+        "id": "azerbaijan"
+      },
+      {
+        "icon": "Globe",
+        "name": "Georgia",
+        "id": "georgia"
+      },
+      {
+        "icon": "Globe",
+        "name": "Central Asia",
+        "id": "central-asia"
+      },
+      {
+        "icon": "Globe",
+        "name": "Caucasus",
+        "id": "caucasus"
+      },
+      {
+        "icon": "Globe",
+        "name": "Mongolia",
+        "id": "mongolia"
+      }
+    ]
+  },
+  "process": {
+    "heading": "Our Process",
+    "steps": [
+      {
+        "title": "Discovery & Goal Setting",
+        "description": "We learn your product, capacity and commercial targets, then agree on the markets worth pursuing first.",
+        "id": "discovery-and-goal-setting"
+      },
+      {
+        "title": "Market & Partner Research",
+        "description": "We size each target market and shortlist vetted distributors, buyers and partners that fit your profile.",
+        "id": "market-and-partner-research"
+      },
+      {
+        "title": "Introductions & Negotiation",
+        "description": "We arrange direct introductions, support negotiations and help structure terms that protect your interests.",
+        "id": "introductions-and-negotiation"
+      },
+      {
+        "title": "Deal Closing & Ongoing Support",
+        "description": "We stay involved after the signature to handle follow-ups, resolve issues and grow the relationship.",
+        "id": "deal-closing-and-ongoing-support"
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Ready to enter Eurasia?",
+    "paragraph": "Share your product and target markets and we will map out a realistic entry plan.",
+    "officeCard": {
+      "title": "Türkiye Office",
+      "address": "İstanbul, Türkiye",
+      "email": "info@eurasiabusinessgateway.com",
+      "phone": "+90 212 912 19 27"
+    }
+  }
+}

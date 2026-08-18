@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "ANASAYFA",
+    "about": "HAKKIMIZDA",
+    "services": "HİZMETLER",
+    "turkiyeToEurasia": "TÜRKİYE → AVRASYA",
+    "eurasiaToTurkiye": "AVRASYA → TÜRKİYE",
+    "sectors": "SEKTÖRLER",
+    "contact": "İLETİŞİM",
+    "servicesDropdown": {
+      "marketEntry": "Pazar Girişi",
+      "localRepresentation": "Yerel Temsil",
+      "distributorSearch": "Distribütör ve Alıcı Arama",
+      "b2bMatchmaking": "B2B Eşleştirme",
+      "marketResearch": "Pazar Araştırması",
+      "businessDevelopment": "İş Geliştirme"
+    },
+    "sectorsDropdown": {
+      "construction": "İnşaat ve Yapı Malzemeleri",
+      "machinery": "Makine ve Endüstriyel Ekipman",
+      "foodAgriculture": "Gıda ve Tarım",
+      "textileApparel": "Tekstil ve Hazır Giyim",
+      "energy": "Enerji",
+      "consumerGoods": "Tüketim Malları"
+    }
+  },
+  "languageSwitcher": {
+    "label": "Dil",
+    "en": "EN",
+    "tr": "TR",
+    "ru": "RU"
+  },
+  "footer": {
+    "features": {
+      "bridgingTitle": "PAZARLARI KÖPRÜLÜYORUZ",
+      "bridgingText": "Türkiye ve Avrasya",
+      "partnershipsTitle": "GÜÇLÜ ORTAKLIKLAR",
+      "partnershipsText": "Güven ve sonuç üzerine kurulu",
+      "focusedTitle": "ODAKLI YAKLAŞIM",
+      "focusedText": "Yerel bilgi, pratik çözümler",
+      "growingTitle": "BÜYÜYEN AĞ",
+      "growingText": "Avrasya genelinde genişliyoruz"
+    },
+    "columns": {
+      "company": "Şirket",
+      "directions": "Faaliyet Bölgeleri",
+      "legal": "Yasal",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Şartları"
+    },
+    "contact": {
+      "officeLabel": "Türkiye Ofisi",
+      "linkedinLabel": "Bizi LinkedIn'de takip edin",
+      "copyright": "© 2026 Eurasia Business Gateway. Tüm hakları saklıdır."
+    }
+  },
+  "common": {
+    "howItWorks": "Nasıl Çalışır",
+    "learnMore": "Daha fazla bilgi",
+    "backToHome": "Ana Sayfaya Dön",
+    "notFoundTitle": "Sayfa bulunamadı",
+    "notFoundText": "Aradığınız sayfa mevcut değil veya taşınmış."
+  },
+  "contact": {
+    "form": {
+      "nameLabel": "Ad",
+      "namePlaceholder": "Tam adınız",
+      "emailLabel": "E-posta",
+      "emailPlaceholder": "sizin@sirket.com",
+      "companyLabel": "Şirket",
+      "companyPlaceholder": "Şirket adı",
+      "phoneLabel": "Telefon",
+      "phonePlaceholder": "+90 ...",
+      "messageLabel": "Mesaj",
+      "messagePlaceholder": "Size nasıl yardımcı olabiliriz?",
+      "submit": "Mesaj Gönder",
+      "submitting": "Gönderiliyor...",
+      "nameError": "Lütfen adınızı girin.",
+      "emailError": "Lütfen geçerli bir e-posta adresi girin.",
+      "messageError": "Lütfen bir mesaj girin.",
+      "successTitle": "Teşekkürler!",
+      "successText": "Mesajınız alındı. 24 saat içinde size geri döneceğiz.",
+      "errorTitle": "Bir şeyler ters gitti",
+      "errorText": "Lütfen tekrar deneyin veya bize doğrudan e-posta gönderin."
+    }
+  }
+}

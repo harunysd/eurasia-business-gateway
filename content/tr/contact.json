@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "label": "İletişime Geçin",
+    "title": "BİZE ULAŞIN",
+    "subtitle": "Türkiye ve Avrasya genelindeki ekibimize ulaşın. Yatırımcılar, üreticiler ve ticaret ortakları için uzman rehberlik sağlıyoruz.",
+    "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1920&q=80"
+  },
+  "form": {
+    "heading": "Bize bir mesaj gönderin",
+    "paragraph": "Aşağıdaki formu doldurun, bölgesel uzmanlarımız 24 saat içinde size geri dönsün."
+  },
+  "infoCard": {
+    "address": "İstanbul, Türkiye",
+    "addressLabel": "Türkiye Ofisi",
+    "email": "info@eurasiabusinessgateway.com",
+    "phone": "+90 212 912 19 27",
+    "linkedinLabel": "Bizi LinkedIn'de takip edin"
+  }
+}

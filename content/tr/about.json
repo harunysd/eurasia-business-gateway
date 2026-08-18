@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "label": "Organizasyonumuz Hakkında",
+    "title": "AVRASYA BOYUNCA BAĞLANTI KURUYORUZ",
+    "subtitle": "Eurasia Business Gateway, Türkiye ile daha geniş Avrasya pazarları arasındaki ticaretin kritik kesişim noktasında durarak başarılı küresel büyüme için gereken istihbaratı ve altyapıyı sağlar.",
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1920&q=80"
+  },
+  "whoWeAre": {
+    "heading": "Biz Kimiz",
+    "paragraphs": [
+      "Eurasia Business Gateway, Türkiye ve Avrasya bölgesi arasındaki sınır ötesi ticarete uzmanlaşmış bağımsız bir danışmanlık ve iş geliştirme firmasıdır. Ekibimiz Rusya, Kazakistan, Özbekistan, Azerbaycan, Gürcistan ve daha geniş Orta Asya ile Kafkas pazarları genelinde yılların pratik ticari deneyimini bir araya getirir.",
+      "Varız çünkü yeni bir pazara girmek hiçbir zaman sadece dil veya lojistik meselesi değildir. Doğru insanları tanımak, yazılı olmayan kuralları anlamak ve bir fırsat belirdiğinde hızlı hareket etmekle ilgilidir. Rolümüz, koridorun her iki tarafındaki müşterilerimiz için o yerel varlık ve güvenilir ortak olmaktır."
+    ],
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80"
+  },
+  "missionVision": {
+    "mission": {
+      "heading": "Misyonumuz",
+      "paragraph": "Türkiye ve Avrasya genelinde eşsiz yerel uzmanlık, titiz analiz ve kökleşmiş bir bölgesel paydaş ağı üzerinden güçlü ticaret, yüksek getiriye sahip yatırım ve etkili pazar girişini kolaylaştırmak."
+    },
+    "vision": {
+      "heading": "Vizyonumuz",
+      "paragraph": "Türkiye ile Avrasya arasındaki ana köprü olmak ve sınır ötesi ticaret, stratejik yatırım ve kalıcı uluslararası ortaklıklar için sorunsuz bir ortam oluşturmak."
+    }
+  },
+  "whyChooseUs": {
+    "heading": "Neden Bizi Seçmelisiniz",
+    "items": [
+      {
+        "icon": "Award",
+        "title": "Yerel Uzmanlık",
+        "description": "Kapsadığımız her pazarda yılların sahada deneyimi.",
+        "id": "yerel-uzmanl-k"
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "Güvenilir Ağ",
+        "description": "Doğrulanmış ortak, distribütör ve karar vericiler ağı.",
+        "id": "g-venilir-a"
+      },
+      {
+        "icon": "Zap",
+        "title": "Hızlı Uygulama",
+        "description": "İlk temastan imzalı anlaşmaya kadar hızlı ilerliyoruz.",
+        "id": "h-zl-uygulama"
+      },
+      {
+        "icon": "HeartHandshake",
+        "title": "Müşteri Odaklı Yaklaşım",
+        "description": "Hedefleriniz her tavsiyemizi ve attığımız her adımı yönlendirir.",
+        "id": "m-teri-odakl-yakla-m"
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Konuşmaya başlamaya hazır mısınız?",
+    "paragraph": "Bize nerede büyümek istediğinizi söyleyin, ilk pratik adımları birlikte planlayalım.",
+    "buttonText": "BİZE ULAŞIN",
+    "href": "/contact"
+  }
+}

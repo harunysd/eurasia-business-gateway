@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "home": "HOME",
+    "about": "ABOUT US",
+    "services": "SERVICES",
+    "turkiyeToEurasia": "TÜRKİYE → EURASIA",
+    "eurasiaToTurkiye": "EURASIA → TÜRKİYE",
+    "sectors": "SECTORS",
+    "contact": "CONTACT",
+    "servicesDropdown": {
+      "marketEntry": "Market Entry",
+      "localRepresentation": "Local Representation",
+      "distributorSearch": "Distributor & Buyer Search",
+      "b2bMatchmaking": "B2B Matchmaking",
+      "marketResearch": "Market Research",
+      "businessDevelopment": "Business Development"
+    },
+    "sectorsDropdown": {
+      "construction": "Construction & Building Materials",
+      "machinery": "Machinery & Industrial Equipment",
+      "foodAgriculture": "Food & Agriculture",
+      "textileApparel": "Textile & Apparel",
+      "energy": "Energy",
+      "consumerGoods": "Consumer Goods"
+    }
+  },
+  "languageSwitcher": {
+    "label": "Language",
+    "en": "EN",
+    "tr": "TR",
+    "ru": "RU"
+  },
+  "footer": {
+    "features": {
+      "bridgingTitle": "BRIDGING MARKETS",
+      "bridgingText": "Türkiye and Eurasia",
+      "partnershipsTitle": "STRONG PARTNERSHIPS",
+      "partnershipsText": "Built on trust and results",
+      "focusedTitle": "FOCUSED APPROACH",
+      "focusedText": "Local knowledge, practical solutions",
+      "growingTitle": "GROWING NETWORK",
+      "growingText": "Expanding across Eurasia"
+    },
+    "columns": {
+      "company": "Company",
+      "directions": "Regions",
+      "legal": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
+    },
+    "contact": {
+      "officeLabel": "Türkiye Office",
+      "linkedinLabel": "Follow us on LinkedIn",
+      "copyright": "© 2026 Eurasia Business Gateway. All rights reserved."
+    }
+  },
+  "common": {
+    "howItWorks": "How It Works",
+    "learnMore": "Learn more",
+    "backToHome": "Back to Home",
+    "notFoundTitle": "Page not found",
+    "notFoundText": "The page you are looking for doesn't exist or has been moved."
+  },
+  "contact": {
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Your full name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@company.com",
+      "companyLabel": "Company",
+      "companyPlaceholder": "Company name",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "+90 ...",
+      "messageLabel": "Message",
+      "messagePlaceholder": "How can we help you?",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "nameError": "Please enter your name.",
+      "emailError": "Please enter a valid email address.",
+      "messageError": "Please enter a message.",
+      "successTitle": "Thank you!",
+      "successText": "Your message has been received. We will get back to you within 24 hours.",
+      "errorTitle": "Something went wrong",
+      "errorText": "Please try again or email us directly."
+    }
+  }
+}

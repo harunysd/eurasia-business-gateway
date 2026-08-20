@@ -43,3 +43,5 @@ next-env.d.ts
 # uploads (user-uploaded content via admin)
 /public/uploads/*
 !/public/uploads/.gitkeep
+
+eurasia-business-gateway-next-js-build.json

@@ -118,7 +118,7 @@ export default async function HomePage({
               <div className="mx-auto mt-6 h-1 w-24 rounded-full bg-teal" />
             </div>
           </FadeInOnScroll>
-          <StaggerGroup className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <StaggerGroup className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3">
             {c.services.items.map((s) => (
               <StaggerItem key={s.id} className="h-full">
                 <ServiceCard

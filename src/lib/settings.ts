@@ -33,7 +33,7 @@ export const defaultSettings: SiteSettings = {
   phone: '+90 212 912 19 27',
   linkedinUrl: 'https://www.linkedin.com',
   footerCopyright: '© 2026 Eurasia Business Gateway. All rights reserved.',
-  mapProvider: 'osm',
+  mapProvider: 'google',
   mapLat: 41.0082,
   mapLng: 28.9784,
   mapboxToken: '',

@@ -47,14 +47,14 @@ export function Logo({
       ) : (
         <LogoMark className="h-10 w-10 shrink-0 transition-transform duration-300 group-hover:scale-105" />
       )}
-      <span className="flex flex-col leading-none">
+      <span className="flex shrink-0 flex-col leading-none">
         <span
-          className={`font-extrabold uppercase tracking-tight text-base ${wordmarkPrimary}`}
+          className={`whitespace-nowrap font-extrabold uppercase tracking-tight text-base ${wordmarkPrimary}`}
         >
           EURASIA
         </span>
         <span
-          className={`font-extrabold uppercase tracking-tight text-xs ${wordmarkSecondary}`}
+          className={`whitespace-nowrap font-extrabold uppercase tracking-tight text-xs ${wordmarkSecondary}`}
         >
           BUSINESS GATEWAY
         </span>

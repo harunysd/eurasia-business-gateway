@@ -154,16 +154,16 @@ export function Header({ locale, logoUrl }: { locale: Locale; logoUrl?: string }
                   className="fixed inset-0 z-40 cursor-default"
                   onClick={() => setLangOpen(false)}
                 />
-                <div className="absolute right-0 top-full z-50 mt-1.5 w-32 overflow-hidden rounded-lg border border-gray/15 bg-white py-1 shadow-xl">
+                <div className="absolute left-1/2 top-full z-50 mt-1.5 w-max min-w-[7.5rem] -translate-x-1/2 whitespace-nowrap overflow-hidden rounded-lg border border-gray/15 bg-white py-1 shadow-xl">
                   {locales.map((l) =>
                     l === locale ? null : (
                       <button
                         key={l}
                         type="button"
                         onClick={() => switchLocale(l)}
-                        className="flex w-full items-center gap-2 px-3 py-2 text-xs font-semibold uppercase tracking-wide text-navy transition-colors hover:bg-teal/5 hover:text-teal"
+                        className="flex w-full items-center justify-start gap-2 px-3 py-2 text-xs font-semibold uppercase tracking-wide text-navy transition-colors hover:bg-teal/5 hover:text-teal"
                       >
-                        <FlagIcon locale={l} className="h-3.5 w-5 rounded-sm" />
+                        <FlagIcon locale={l} className="h-3.5 w-5 shrink-0 rounded-sm" />
                         <span>{tLang(l)}</span>
                       </button>
                     ),

@@ -65,7 +65,6 @@ export function Header({ locale, logoUrl }: { locale: Locale; logoUrl?: string }
   const pathname = usePathname();
   const router = useRouter();
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [openAccordion, setOpenAccordion] = useState<string | null>(null);
   const [langOpen, setLangOpen] = useState(false);
   const s = useSiteSettings();
 
@@ -82,8 +81,6 @@ export function Header({ locale, logoUrl }: { locale: Locale; logoUrl?: string }
   };
 
   const closeMobile = () => setMobileOpen(false);
-  const toggleAccordion = (key: string) =>
-    setOpenAccordion((cur) => (cur === key ? null : key));
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-gray/10 bg-white shadow-sm">
@@ -195,8 +192,7 @@ export function Header({ locale, logoUrl }: { locale: Locale; logoUrl?: string }
           />
           {/* Panel */}
           <div className="absolute right-0 top-0 flex h-full w-[85%] max-w-sm flex-col bg-navy shadow-2xl">
-            <div className="flex items-center justify-between border-b border-white/10 px-5 py-4">
-              <Logo variant="dark" showTagline={false} markImage={logoUrl || s?.logo || undefined} />
+            <div className="flex items-center justify-end border-b border-white/10 px-5 py-4">
               <button
                 type="button"
                 onClick={closeMobile}
@@ -211,54 +207,17 @@ export function Header({ locale, logoUrl }: { locale: Locale; logoUrl?: string }
               <ul className="flex flex-col gap-1">
                 {navItems.map((item) => (
                   <li key={item.key}>
-                    {item.dropdown ? (
-                      <div className="rounded">
-                        <button
-                          type="button"
-                          onClick={() => toggleAccordion(item.key)}
-                          className={`flex w-full items-center justify-between py-3 text-sm font-semibold uppercase tracking-wide transition-colors ${
-                            isActive(item.href)
-                              ? 'text-teal'
-                              : 'text-white hover:text-teal'
-                          }`}
-                        >
-                          <span>{t(item.key)}</span>
-                          <Icon
-                            name="ChevronDown"
-                            className={`h-4 w-4 transition-transform duration-200 ${
-                              openAccordion === item.key ? 'rotate-180' : ''
-                            }`}
-                          />
-                        </button>
-                        {openAccordion === item.key && (
-                          <ul className="mb-2 ml-3 flex flex-col gap-1 border-l border-white/10 pl-3">
-                            {item.dropdown.map((sub) => (
-                              <li key={sub.key}>
-                                <Link
-                                  href={sub.href}
-                                  onClick={closeMobile}
-                                  className="block py-2 text-sm text-white/80 hover:text-teal"
-                                >
-                                  {t(sub.key)}
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                        )}
-                      </div>
-                    ) : (
-                      <Link
-                        href={item.href}
-                        onClick={closeMobile}
-                        className={`block py-3 text-sm font-semibold uppercase tracking-wide transition-colors ${
-                          isActive(item.href)
-                            ? 'text-teal'
-                            : 'text-white hover:text-teal'
-                        }`}
-                      >
-                        {t(item.key)}
-                      </Link>
-                    )}
+                    <Link
+                      href={item.href}
+                      onClick={closeMobile}
+                      className={`block py-3 text-sm font-semibold uppercase tracking-wide transition-colors ${
+                        isActive(item.href)
+                          ? 'text-teal'
+                          : 'text-white hover:text-teal'
+                      }`}
+                    >
+                      {t(item.key)}
+                    </Link>
                   </li>
                 ))}
               </ul>

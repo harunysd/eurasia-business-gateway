@@ -54,9 +54,9 @@ export function Footer({ logoUrl }: { logoUrl?: string }) {
 
       {/* Brand (left) + link columns (right), max-w-7xl with room to breathe */}
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-12 px-4 py-14 md:grid-cols-12 md:px-6 md:py-16">
-        <div className="md:col-span-5">
+        <div className="flex flex-col items-center md:col-span-5 md:items-start">
           <Logo variant="dark" markImage={logoUrl || s?.logo || undefined} />
-          <p className="mt-6 max-w-xs text-sm leading-relaxed text-white/60">
+          <p className="mt-6 max-w-xs text-center text-sm leading-relaxed text-white/60 md:text-left">
             {s?.tagline || 'TRADE · INVESTMENT · MARKET ENTRY'}
           </p>
         </div>

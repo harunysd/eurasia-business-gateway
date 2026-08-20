@@ -41,20 +41,20 @@ export default async function SectorsPage({
 
       <section className="bg-white py-12 md:py-section">
         <div className="mx-auto w-full max-w-7xl px-4">
-          <StaggerGroup className="grid grid-cols-1 items-stretch gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+          <StaggerGroup className="grid grid-cols-1 items-stretch gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
             {sectors.map((s) => (
               <StaggerItem key={s.id} className="h-full">
                 <Link
                   href={`/sectors/${s.id}`}
-                  className="group flex h-full flex-col items-center justify-center rounded-lg border border-gray/15 bg-white p-6 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+                  className="group flex h-full flex-col items-center justify-center rounded-lg border border-gray/15 bg-white p-4 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
                 >
-                  <span className="mb-4 inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-teal/10 text-teal transition-colors duration-300 group-hover:bg-teal group-hover:text-white">
-                    <Icon name={s.icon} className="h-6 w-6" />
+                  <span className="mb-3 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-teal/10 text-teal transition-colors duration-300 group-hover:bg-teal group-hover:text-white">
+                    <Icon name={s.icon} className="h-5 w-5" />
                   </span>
-                  <h3 className="mb-2 text-balance text-base font-bold uppercase tracking-tight text-navy">
+                  <h3 className="mb-1.5 text-balance text-sm font-bold uppercase tracking-tight text-navy">
                     {s.title}
                   </h3>
-                  <p className="break-words text-sm leading-relaxed text-gray">
+                  <p className="line-clamp-3 break-words text-xs leading-relaxed text-gray">
                     {s.description}
                   </p>
                 </Link>

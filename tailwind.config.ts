@@ -22,7 +22,7 @@ const config: Config = {
         container: '1200px',
       },
       spacing: {
-        section: '80px',
+        section: '56px',
       },
     },
   },

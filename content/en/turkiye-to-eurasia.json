@@ -40,18 +40,18 @@
       },
       {
         "icon": "Globe",
-        "name": "Central Asia",
-        "id": "central-asia"
+        "name": "Belarus",
+        "id": "belarus"
       },
       {
         "icon": "Globe",
-        "name": "Caucasus",
-        "id": "caucasus"
+        "name": "Armenia",
+        "id": "armenia"
       },
       {
         "icon": "Globe",
-        "name": "Mongolia",
-        "id": "mongolia"
+        "name": "Kyrgyzstan",
+        "id": "kyrgyzstan"
       }
     ]
   },

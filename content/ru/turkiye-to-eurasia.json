@@ -40,18 +40,18 @@
       },
       {
         "icon": "Globe",
-        "name": "Центральная Азия",
-        "id": "item-6"
+        "name": "Беларусь",
+        "id": "belarus"
       },
       {
         "icon": "Globe",
-        "name": "Кавказ",
-        "id": "item-7"
+        "name": "Армения",
+        "id": "armeniya"
       },
       {
         "icon": "Globe",
-        "name": "Монголия",
-        "id": "item-8"
+        "name": "Кыргызстан",
+        "id": "kyrgyzstan"
       }
     ]
   },

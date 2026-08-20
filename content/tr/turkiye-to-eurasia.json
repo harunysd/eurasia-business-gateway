@@ -40,18 +40,18 @@
       },
       {
         "icon": "Globe",
-        "name": "Orta Asya",
-        "id": "orta-asya"
+        "name": "Belarus",
+        "id": "belarus"
       },
       {
         "icon": "Globe",
-        "name": "Kafkasya",
-        "id": "kafkasya"
+        "name": "Ermenistan",
+        "id": "ermenistan"
       },
       {
         "icon": "Globe",
-        "name": "Moğolistan",
-        "id": "mo-olistan"
+        "name": "Kırgızistan",
+        "id": "k-rg-zistan"
       }
     ]
   },

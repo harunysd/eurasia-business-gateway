@@ -57,7 +57,13 @@ model SiteSettings {
   officeEmail     String   @default("info@eurasiabusinessgateway.com")
   phone           String   @default("+90 212 912 19 27")
   linkedinUrl     String   @default("https://www.linkedin.com")
-  mapEmbedUrl     String   @default("")
   footerCopyright String   @default("© 2026 Eurasia Business Gateway. All rights reserved.")
+  // Map block: provider + coordinates drive the embedded map on the contact
+  // and direction pages. `mapEmbedUrl` overrides everything when non-empty.
+  mapProvider     String   @default("osm") // "osm" | "google" | "mapbox"
+  mapLat          Float?
+  mapLng          Float?
+  mapboxToken     String   @default("")
+  mapEmbedUrl     String   @default("")
   updatedAt       DateTime @updatedAt
 }

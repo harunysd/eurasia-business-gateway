@@ -14,8 +14,14 @@ export type SiteSettings = {
   officeEmail: string;
   phone: string;
   linkedinUrl: string;
-  mapEmbedUrl: string;
   footerCopyright: string;
+  // Map block — provider + coordinates + token drive the embedded map.
+  // mapEmbedUrl (custom iframe URL) overrides the provider when set.
+  mapProvider: 'osm' | 'google' | 'mapbox';
+  mapLat: number | null;
+  mapLng: number | null;
+  mapboxToken: string;
+  mapEmbedUrl: string;
 };
 
 export const defaultSettings: SiteSettings = {
@@ -26,8 +32,12 @@ export const defaultSettings: SiteSettings = {
   officeEmail: 'info@eurasiabusinessgateway.com',
   phone: '+90 212 912 19 27',
   linkedinUrl: 'https://www.linkedin.com',
-  mapEmbedUrl: '',
   footerCopyright: '© 2026 Eurasia Business Gateway. All rights reserved.',
+  mapProvider: 'osm',
+  mapLat: 41.0082,
+  mapLng: 28.9784,
+  mapboxToken: '',
+  mapEmbedUrl: '',
 };
 
 const settingsFile = path.join(process.cwd(), 'content', 'settings.json');
@@ -55,7 +65,7 @@ export async function getSiteSettings(): Promise<SiteSettings> {
     const row = await prisma.siteSettings.findUnique({ where: { id: 1 } });
     if (row) {
       const { id: _id, updatedAt: _updatedAt, ...rest } = row;
-      return { ...defaultSettings, ...rest };
+      return { ...defaultSettings, ...rest } as SiteSettings;
     }
   } catch (err) {
     console.error('read site settings from DB failed:', err);

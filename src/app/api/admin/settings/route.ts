@@ -34,20 +34,28 @@ export async function PATCH(req: NextRequest) {
     return NextResponse.json({ error: 'Geçersiz JSON.' }, { status: 400 });
   }
 
-  const next: SiteSettings = {
-    ...(await getSiteSettings()),
-    ...(body as Partial<SiteSettings>),
-  };
-  for (const key of Object.keys(next)) {
-    if (typeof next[key as keyof SiteSettings] !== 'string') {
-      next[key as keyof SiteSettings] = String(
-        next[key as keyof SiteSettings] ?? defaultSettings[key as keyof SiteSettings],
-      );
+  const next = body as Partial<SiteSettings>;
+  const merged: SiteSettings = { ...(await getSiteSettings()), ...next };
+  const out = merged as Record<string, unknown>;
+  for (const key of Object.keys(defaultSettings) as (keyof SiteSettings)[]) {
+    const value = out[key];
+    if (key === 'mapLat' || key === 'mapLng') {
+      // Coordinates: keep numbers as-is, parse numeric strings, else null.
+      out[key] =
+        typeof value === 'number' && Number.isFinite(value)
+          ? value
+          : typeof value === 'string' && value.trim() !== '' &&
+            Number.isFinite(Number(value))
+            ? Number(value)
+            : null;
+    } else {
+      out[key] =
+        typeof value === 'string' ? value : defaultSettings[key];
     }
   }
 
   try {
-    await saveSiteSettings(next);
+    await saveSiteSettings(merged);
     return NextResponse.json({ ok: true });
   } catch (err) {
     console.error('save site settings failed:', err);

@@ -24,6 +24,12 @@ export function SettingsForm({ initial }: SettingsFormProps) {
   const update = (key: keyof SiteSettings, value: string) =>
     setSettings((s) => ({ ...s, [key]: value }));
 
+  const updateNum = (key: 'mapLat' | 'mapLng', value: string) =>
+    setSettings((s) => ({
+      ...s,
+      [key]: value.trim() === '' ? null : Number(value),
+    }));
+
   const onSave = async () => {
     setSaving(true);
     try {
@@ -58,14 +64,17 @@ export function SettingsForm({ initial }: SettingsFormProps) {
     }
   };
 
-  const fields: { key: keyof SiteSettings; label: string; placeholder: string }[] = [
+  const fields: {
+    key: Exclude<keyof SiteSettings, 'mapLat' | 'mapLng' | 'mapProvider'>;
+    label: string;
+    placeholder: string;
+  }[] = [
     { key: 'companyName', label: 'Şirket Adı', placeholder: 'Eurasia Business Gateway' },
     { key: 'tagline', label: 'Slogan', placeholder: 'Trade · Investment · Market Entry' },
     { key: 'officeAddress', label: 'Ofis Adresi', placeholder: 'İstanbul, Türkiye' },
     { key: 'officeEmail', label: 'Ofis E-postası', placeholder: 'info@example.com' },
     { key: 'phone', label: 'Telefon', placeholder: '+90 212 000 00 00' },
     { key: 'linkedinUrl', label: 'LinkedIn URL', placeholder: 'https://www.linkedin.com/company/...' },
-    { key: 'mapEmbedUrl', label: 'Harita Gömme URL', placeholder: 'https://www.google.com/maps/embed?pb=... veya OpenStreetMap embed URL' },
     { key: 'footerCopyright', label: 'Altbilgi Telif Hakkı', placeholder: '© 2026 Eurasia Business Gateway. Tüm hakları saklıdır.' },
   ];
 
@@ -191,6 +200,104 @@ export function SettingsForm({ initial }: SettingsFormProps) {
           </div>
         </section>
 
+        {/* Map */}
+        <section className="rounded-lg border border-gray/15 bg-white p-5 shadow-sm">
+          <h2 className="mb-4 text-sm font-bold uppercase tracking-wide text-navy">
+            Harita
+          </h2>
+          <div className="space-y-4">
+            <div>
+              <label className="mb-1.5 block text-sm font-semibold text-navy">
+                Harita Sağlayıcısı
+              </label>
+              <select
+                value={settings.mapProvider}
+                onChange={(e) =>
+                  update('mapProvider', e.target.value as SiteSettings['mapProvider'])
+                }
+                className={inputClass}
+              >
+                <option value="osm">OpenStreetMap (anahtarsız, varsayılan)</option>
+                <option value="google">
+                  Google Maps (ücretsiz gömme, anahtar gerekmez)
+                </option>
+                <option value="mapbox">Mapbox (siteye uyumlu, token gerekir)</option>
+              </select>
+              <p className="mt-1.5 text-xs text-gray">
+                OpenStreetMap embed&apos;inde haritanın köşesinde küçük
+                OpenStreetMap logosu bulunur (ücretsiz hizmetin şartı). Google
+                Maps&apos;te küçük Google logosu, Mapbox&apos;ta küçük Mapbox
+                logosu vardır.
+              </p>
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <label className="mb-1.5 block text-sm font-semibold text-navy">
+                  Enlem (Latitude)
+                </label>
+                <input
+                  type="number"
+                  step="any"
+                  value={settings.mapLat == null ? '' : settings.mapLat}
+                  onChange={(e) => updateNum('mapLat', e.target.value)}
+                  placeholder="41.0082"
+                  className={inputClass}
+                />
+              </div>
+              <div>
+                <label className="mb-1.5 block text-sm font-semibold text-navy">
+                  Boylam (Longitude)
+                </label>
+                <input
+                  type="number"
+                  step="any"
+                  value={settings.mapLng == null ? '' : settings.mapLng}
+                  onChange={(e) => updateNum('mapLng', e.target.value)}
+                  placeholder="28.9784"
+                  className={inputClass}
+                />
+              </div>
+            </div>
+<p className="rounded bg-gray/5 px-3 py-2 text-xs leading-relaxed text-gray">
+              Koordinatları bulmak için: Google Maps&apos;te ofisinizi açın →
+              konuma sağ tıklayın → üstte görünen sayılar (ör. 41.0082,
+              28.9784) enlem ve boylamdır.
+            </p>
+            <div>
+              <label className="mb-1.5 block text-sm font-semibold text-navy">
+                Mapbox Access Token (yalnızca Mapbox seçiliyken)
+              </label>
+              <input
+                type="text"
+                value={settings.mapboxToken}
+                onChange={(e) => update('mapboxToken', e.target.value)}
+                placeholder="pk.eyJ1Ijo..."
+                className={inputClass}
+              />
+              <p className="mt-1.5 text-xs text-gray">
+                mapbox.com&apos;da ücretsiz hesap açıp Dashboard → Tokens
+                bölümünden alınır (ayda ~50.000 yükleme ücretsiz).
+              </p>
+            </div>
+            <div>
+              <label className="mb-1.5 block text-sm font-semibold text-navy">
+                Özel Harita Gömme URL (isteğe bağlı)
+              </label>
+              <input
+                type="text"
+                value={settings.mapEmbedUrl}
+                onChange={(e) => update('mapEmbedUrl', e.target.value)}
+                placeholder="https://www.google.com/maps/embed?pb=... veya OpenStreetMap embed URL"
+                className={inputClass}
+              />
+              <p className="mt-1.5 text-xs text-gray">
+                Doldurulursa sağlayıcı ayarını ezer ve bu iframe doğrudan
+                kullanılır. Boş bırakın.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* What this updates */}
         <section className="rounded-lg border border-gray/15 bg-teal/5 p-5 text-sm text-gray">
           <h2 className="mb-2 flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-navy">
@@ -200,12 +307,12 @@ export function SettingsForm({ initial }: SettingsFormProps) {
           <p className="leading-relaxed">
             Adres, e-posta, telefon ve LinkedIn değerleri tüm sayfalardaki
             footer iletişim çubuğunu, iletişim sayfası bilgi kartını ve her iki
-            yön sayfasındaki ofis kartını besler. Harita gömme URL, bu kartlarla
-            birlikte gösterilen harita iframe&apos;ini (örn. Google Maps veya
-            OpenStreetMap embed linki) belirler; boş bırakılırsa varsayılan
-            embed kullanılır. Logo yüklendiğinde header ve footer&apos;daki
-            yerleşik işaretin yerine geçer. Telif hakkı satırı footer&apos;ın
-            varsayılanını değiştirir.
+            yön sayfasındaki ofis kartını besler. Harita bölümü, bu kartlarla
+            birlikte gösterilen haritayı yönetir: sağlayıcı seçimi (OpenStreetMap
+            / Google ücretsiz embed / Mapbox), pin&apos;in koordinatları ve
+            isteğe bağlı özel iframe linki. Logo yüklendiğinde header ve
+            footer&apos;daki yerleşik işaretin yerine geçer. Telif hakkı satırı
+            footer&apos;ın varsayılanını değiştirir.
           </p>
         </section>
       </div>

@@ -68,7 +68,13 @@ export default async function ContactPage({
               phone={phone}
               linkedinLabel={c.infoCard.linkedinLabel}
               linkedinUrl={linkedinUrl}
-              mapEmbedUrl={s.mapEmbedUrl}
+              map={{
+                mapProvider: s.mapProvider,
+                mapLat: s.mapLat,
+                mapLng: s.mapLng,
+                mapboxToken: s.mapboxToken,
+                mapEmbedUrl: s.mapEmbedUrl,
+              }}
             />
           </div>
         </div>

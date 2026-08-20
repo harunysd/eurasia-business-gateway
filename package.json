@@ -19,6 +19,7 @@
     "country-flag-icons": "^1.6.20",
     "framer-motion": "^13.1.0",
     "lucide-react": "0.456.0",
+    "mapbox-gl": "^3.28.1",
     "next": "14.2.15",
     "next-auth": "4.24.8",
     "next-intl": "3.25.3",

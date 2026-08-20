@@ -43,7 +43,13 @@ export default async function EurasiaToTurkiyePage({
     address: s.officeAddress || c.cta.officeCard.address,
     email: s.officeEmail || c.cta.officeCard.email,
     phone: s.phone || c.cta.officeCard.phone,
-    mapEmbedUrl: s.mapEmbedUrl,
+    map: {
+      mapProvider: s.mapProvider,
+      mapLat: s.mapLat,
+      mapLng: s.mapLng,
+      mapboxToken: s.mapboxToken,
+      mapEmbedUrl: s.mapEmbedUrl,
+    },
   };
 
   return (
@@ -178,7 +184,7 @@ export default async function EurasiaToTurkiyePage({
               address={office.address}
               email={office.email}
               phone={office.phone}
-              mapEmbedUrl={office.mapEmbedUrl}
+              map={office.map}
             />
           </div>
         </div>

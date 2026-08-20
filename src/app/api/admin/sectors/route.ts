@@ -5,6 +5,7 @@ import { prisma } from '@/lib/prisma';
 import {
   parseSectorContent,
   serializeSectorContent,
+  seedSectorsFromContentIfEmpty,
   type SectorRecord,
 } from '@/lib/sectors';
 
@@ -21,6 +22,9 @@ export async function GET() {
   if (!session) return unauthorized();
 
   try {
+    // Fresh setups start with an empty Sector table; migrate the static
+    // sector cards into the database once so the panel lists them.
+    await seedSectorsFromContentIfEmpty();
     const rows = await prisma.sector.findMany({ orderBy: { order: 'asc' } });
     const sectors: SectorRecord[] = rows.map((row) => ({
       ...row,

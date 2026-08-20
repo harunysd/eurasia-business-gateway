@@ -1,5 +1,6 @@
 import { prisma } from './prisma';
 import { locales, type Locale } from '@/i18n/routing';
+import { readPageContentSync } from './content';
 
 // Sector localized copy stored as a JSON string on the Sector.content column.
 export type SectorContent = {
@@ -76,6 +77,78 @@ export function sectorForLocale(
 
 function isLocale(value: string): value is Locale {
   return (locales as readonly string[]).includes(value);
+}
+
+type StaticSectorItem = {
+  id: string;
+  icon?: string;
+  image?: string;
+  title?: string;
+  description?: string;
+  longDescription?: string;
+};
+
+// One-time migration: when the Sector table is empty (fresh setup), seed it
+// from the static /content/{locale}/sectors.json files so the admin panel and
+// the public site always show the same sectors. Returns true when rows were
+// created.
+export async function seedSectorsFromContentIfEmpty(): Promise<boolean> {
+  try {
+    const count = await prisma.sector.count();
+    if (count > 0) return false;
+
+    const merged: {
+      id: string;
+      icon: string;
+      image: string;
+      content: Record<Locale, SectorContent>;
+    }[] = [];
+
+    for (const locale of locales) {
+      const json = readPageContentSync(locale, 'sectors') as {
+        sectors?: StaticSectorItem[];
+      };
+      const list = Array.isArray(json?.sectors) ? json.sectors : [];
+      for (const it of list) {
+        if (!it.id) continue;
+        let entry = merged.find((e) => e.id === it.id);
+        if (!entry) {
+          entry = {
+            id: it.id,
+            icon: '',
+            image: '',
+            content: emptyContent(),
+          };
+          merged.push(entry);
+        }
+        if (typeof it.icon === 'string' && it.icon) entry.icon = it.icon;
+        if (typeof it.image === 'string') entry.image = it.image;
+        entry.content[locale] = {
+          title: typeof it.title === 'string' ? it.title : '',
+          description:
+            typeof it.description === 'string' ? it.description : '',
+          longDescription:
+            typeof it.longDescription === 'string' ? it.longDescription : '',
+        };
+      }
+    }
+
+    for (const [idx, it] of merged.entries()) {
+      await prisma.sector.create({
+        data: {
+          slug: it.id,
+          icon: it.icon || 'BarChart3',
+          image: it.image,
+          order: idx,
+          content: serializeSectorContent(it.content),
+        },
+      });
+    }
+    return merged.length > 0;
+  } catch (err) {
+    console.error('seed sectors failed:', err);
+    return false;
+  }
 }
 
 // All sectors ordered by the admin-set order. Returns null when the table is

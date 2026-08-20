@@ -65,7 +65,10 @@ export function SettingsForm({ initial }: SettingsFormProps) {
   };
 
   const fields: {
-    key: Exclude<keyof SiteSettings, 'mapLat' | 'mapLng' | 'mapProvider'>;
+    key: Exclude<
+      keyof SiteSettings,
+      'mapLat' | 'mapLng' | 'mapProvider' | 'mailProvider' | 'webmailUrl'
+    >;
     label: string;
     placeholder: string;
   }[] = [
@@ -295,6 +298,45 @@ export function SettingsForm({ initial }: SettingsFormProps) {
                 kullanılır. Boş bırakın.
               </p>
             </div>
+          </div>
+        </section>
+
+        {/* Webmail */}
+        <section className="rounded-lg border border-gray/15 bg-white p-5 shadow-sm">
+          <h2 className="mb-4 text-sm font-bold uppercase tracking-wide text-navy">
+            Kurumsal E-posta (Webmail)
+          </h2>
+          <div className="space-y-4">
+            <div>
+              <label className="mb-1.5 block text-sm font-semibold text-navy">
+                E-posta Sağlayıcısı
+              </label>
+              <input
+                type="text"
+                value={settings.mailProvider}
+                onChange={(e) => update('mailProvider', e.target.value)}
+                placeholder="Zoho Mail"
+                className={inputClass}
+              />
+            </div>
+            <div>
+              <label className="mb-1.5 block text-sm font-semibold text-navy">
+                Webmail URL
+              </label>
+              <input
+                type="text"
+                value={settings.webmailUrl}
+                onChange={(e) => update('webmailUrl', e.target.value)}
+                placeholder="https://mail.zoho.com/"
+                className={inputClass}
+              />
+            </div>
+            <p className="leading-relaxed text-xs text-gray">
+              Bu değerler, E-posta Ayarları sayfasındaki &quot;Webmail&apos;i
+              Aç&quot; kısayolunu besler. Sağlayıcı değiştiğinde tek merkezden
+              güncellenir. Buraya asla e-posta şifresi veya API anahtarı
+              girilmez.
+            </p>
           </div>
         </section>
 

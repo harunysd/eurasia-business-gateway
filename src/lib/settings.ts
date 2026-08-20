@@ -22,6 +22,9 @@ export type SiteSettings = {
   mapLng: number | null;
   mapboxToken: string;
   mapEmbedUrl: string;
+  // Corporate webmail shortcut config (E-posta Ayarları "Webmail'i Aç").
+  mailProvider: string;
+  webmailUrl: string;
 };
 
 export const defaultSettings: SiteSettings = {
@@ -38,6 +41,8 @@ export const defaultSettings: SiteSettings = {
   mapLng: 28.9784,
   mapboxToken: '',
   mapEmbedUrl: '',
+  mailProvider: 'Zoho Mail',
+  webmailUrl: 'https://mail.zoho.com/',
 };
 
 const settingsFile = path.join(process.cwd(), 'content', 'settings.json');

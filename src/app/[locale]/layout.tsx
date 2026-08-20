@@ -29,6 +29,11 @@ export const metadata: Metadata = {
   title: 'Eurasia Business Gateway',
   description:
     'Connecting Türkiye with Eurasia — market entry, partner search and business development across the Eurasian corridor.',
+  authors: [{ name: 'Harun Yasir SARIDAŞ' }],
+  other: {
+    developer: 'Harun Yasir SARIDAŞ',
+    contact: 'harunysd@gmail.com',
+  },
 };
 
 // Locale layout: renders <html lang={locale}> with the font, provides

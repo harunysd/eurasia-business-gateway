@@ -65,5 +65,10 @@ model SiteSettings {
   mapLng          Float?
   mapboxToken     String   @default("")
   mapEmbedUrl     String   @default("")
+  // Corporate webmail shortcut: provider name + webmail panel URL. This only
+  // powers the "Webmail'i Aç" shortcut in Email Settings — never stores or
+  // requests mailbox credentials.
+  mailProvider    String   @default("Zoho Mail")
+  webmailUrl      String   @default("https://mail.zoho.com/")
   updatedAt       DateTime @updatedAt
 }

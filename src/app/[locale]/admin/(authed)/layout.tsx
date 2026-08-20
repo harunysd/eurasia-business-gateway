@@ -13,7 +13,6 @@ type Params = { locale: string };
 const navItems = [
   { href: 'admin', label: 'Sayfalar', icon: 'Globe', exact: true },
   { href: 'admin/messages', label: 'Mesajlar', icon: 'Mail', exact: false },
-  { href: 'admin/sectors', label: 'Sektörler', icon: 'BarChart3', exact: false },
   { href: 'admin/settings', label: 'Genel Ayarlar', icon: 'Settings', exact: true },
   {
     href: 'admin/settings/email',
@@ -59,6 +58,21 @@ export default async function AdminAuthedLayout({
             </Link>
           ))}
         </nav>
+
+        <div className="border-t border-white/10 p-4">
+          <p className="text-[10px] uppercase tracking-wider text-white/40">
+            Hazırlayan
+          </p>
+          <p className="mt-1 text-xs font-medium text-white/70">
+            Harun Yasir SARIDAŞ
+          </p>
+          <a
+            href="mailto:harunysd@gmail.com"
+            className="mt-0.5 block text-xs text-teal/70 transition-colors hover:text-teal"
+          >
+            harunysd@gmail.com
+          </a>
+        </div>
 
         <div className="border-t border-white/10 p-3">
           <SignOutButton />

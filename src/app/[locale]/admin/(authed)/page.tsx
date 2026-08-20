@@ -29,8 +29,8 @@ const pageMeta: Record<
     icon: 'Handshake',
   },
   sectors: {
-    title: 'Sektörler (CMS)',
-    description: 'Kartlar veritabanından yönetilir — ikon, başlık, açıklama ekleme/çıkarma.',
+    title: 'Sektörler',
+    description: 'Sektör kartlarını, ikonlarını, başlıklarını ve açıklamalarını yönetin.',
     icon: 'BarChart3',
   },
   'turkiye-to-eurasia': {

@@ -7,9 +7,16 @@ import type { SmtpSettings } from '@/lib/email';
 type EmailSettingsFormProps = {
   initial: SmtpSettings | null;
   resendConfigured: boolean;
+  mailProvider: string;
+  webmailUrl: string;
 };
 
-export function EmailSettingsForm({ initial, resendConfigured }: EmailSettingsFormProps) {
+export function EmailSettingsForm({
+  initial,
+  resendConfigured,
+  mailProvider,
+  webmailUrl,
+}: EmailSettingsFormProps) {
   const [settings, setSettings] = useState<SmtpSettings>(
     initial ?? {
       host: '',
@@ -159,6 +166,44 @@ export function EmailSettingsForm({ initial, resendConfigured }: EmailSettingsFo
               {field('Kullanıcı adı', 'user', 'text', 'you@example.com')}
               {field('Şifre / Uygulama şifresi', 'pass', 'password', '••••••••')}
             </div>
+          </div>
+        </section>
+
+        {/* Webmail — corporate mailbox shortcut */}
+        <section className="rounded-lg border border-gray/15 bg-white p-5 shadow-sm">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+            <div>
+              <h2 className="mb-1 flex items-center gap-2 text-sm font-bold uppercase tracking-wide text-navy">
+                <Icon name="Mail" className="h-4 w-4 text-teal" />
+                Webmail
+              </h2>
+              <p className="text-sm leading-relaxed text-gray">
+                Kurumsal e-posta hesaplarını görüntülemek ve yönetmek için
+                e-posta sağlayıcısının webmail panelini açın.
+              </p>
+              <p className="mt-2 text-xs text-gray">
+                Sağlayıcı:{' '}
+                <span className="font-semibold text-navy">{mailProvider}</span>
+              </p>
+            </div>
+            <a
+              href={webmailUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex shrink-0 items-center justify-center gap-2 self-start rounded border border-teal px-4 py-2 text-xs font-semibold uppercase tracking-wide text-teal transition-colors hover:bg-teal hover:text-white"
+            >
+              Webmail&apos;i Aç
+              <Icon name="ExternalLink" className="h-3.5 w-3.5" />
+            </a>
+          </div>
+          <div className="mt-4 border-t border-gray/10 pt-3">
+            <p className="text-xs leading-relaxed text-gray">
+              <span className="font-semibold text-navy">
+                Kurumsal E-posta · Durum:
+              </span>{' '}
+              Yapılandırma bekleniyor. Domain aktif edildikten sonra MX, SPF ve
+              DKIM kayıtları e-posta sağlayıcısı üzerinden yapılandırılacaktır.
+            </p>
           </div>
         </section>
 
